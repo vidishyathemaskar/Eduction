@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>SP COACHING CLASSES</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo" ><img src="laptop.jpeg" alt="logo"></div>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#servies">SERVIES</a></li>
+            <li><a href="#contact us">CONTACT US</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection" id="home">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">The Future of The world is Eduction.</p>
+                <p class="text-small">Education is the transmission of knowledge, skills, and character traits. There are many 
+                    debates about its precise definition, for example, about which aims it tries to achieve. A further issue is
+                    whether part of the meaning of education is that the 
+                    change in the student is an improvement. </p>
+                <div class="button">
+                    <button class="btn">subscribe</button>
+                    <button class="btn">watch video</button>
+
+                </div> 
+            </div>
+            <div class="secondhalf">
+                <img src="eduction.jpeg" alt="sp class">
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="servies">
+        <div class="paras">
+        <p class="sectiontag text-big">
+        Indian eduction system     
+       </p>
+        <p class="sectionsubtag text-small" >
+            A good education helps you recognize yourself and your strengths.
+            As you learn about the world and yourself, you come across things
+            that interest you. You find things you are good at and figure 
+            out how you can contribute and help the world grow.
+            Education gives you opportunities to explore yourself, 
+            and your surroundings and empowers you to understand the
+            ways of the world. It gives you the freedom to live a
+            life of your choice.
+            
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="pia1.jpeg" alt="laopto" class="imgfluid">
+        </div>
+    </section>      
+
+    <section class="section section-left" id="about">
+        <div class="paras">
+        <p class="sectiontag text-big">
+        Indian eduction system     
+       </p>
+        <p class="sectionsubtag text-small" >
+            A good education helps you recognize yourself and your strengths.
+            As you learn about the world and yourself, you come across things
+            that interest you. You find things you are good at and figure 
+            out how you can contribute and help the world grow.
+            Education gives you opportunities to explore yourself, 
+            and your surroundings and empowers you to understand the
+            ways of the world. It gives you the freedom to live a
+            life of your choice.
+            
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="digitalindia.jpeg" alt="laopto" class="imgfluid">
+        </div>
+    </section>      
+
+    <section class="section" id="servies">
+        <div class="paras">
+        <p class="sectiontag text-big">
+        Indian eduction system     
+       </p>
+        <p class="sectionsubtag text-small">
+            A good education helps you recognize yourself and your strengths.
+            As you learn about the world and yourself, you come across things
+            that interest you. You find things you are good at and figure 
+            out how you can contribute and help the world grow.
+            Education gives you opportunities to explore yourself, 
+            and your surroundings and empowers you to understand the
+            ways of the world. It gives you the freedom to live a
+            life of your choice.
+            
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="indiaedu.jpeg" alt="laopto" class="imgfluid">
+        </div>
+    </section>      
+    <hr>
+    
+    <section class="contact" id="contact us" >
+       <h1 class="text-center">contact us</h1>
+       <div class="form">
+       <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+       <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone">
+       <input class="form-input" type="text" name="email" id="email" placeholder="Enter your Email">
+       <textarea class="form-input" type="text" name="text" id="text"row="30" placeholder="what your concern"></textarea>
+       <button class="btn-btn-sm-btn-dark">Submit</button>
+       </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            www.Vidhisha Themaskar.com
+        </p>
+
+    </footer>
+    <script >
+        burger=document.querySelector('.burger');
+        navbar=document.querySelector('.navbar');
+        navlist=document.querySelector('.nav-list');
+        rightnav=document.querySelector('.rightnav');
+
+
+        burger.addEventListener('click',()=>{
+        rightnav.classlist.toggle('v-class-resp');
+        navList.classlist.toggle('v-class-resp');
+        navbar.classlist.toggle('h-nav-resp');
+        })
+    </script>
+    
+</body>
+
+     
+</html>
